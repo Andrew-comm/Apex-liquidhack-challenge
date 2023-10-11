@@ -11,10 +11,10 @@ const Navbar2 = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-icons"> 
-        <li className="icon-2"><a href="#"><img src={callImage} alt="call"/></a></li>        
-        <li className="icon"><a href="#"><img src={facebookImage} alt="facebook"/></a></li>
-        <li className="icon"><a href="#"><img src={twitterImage} alt="twitter"/></a></li>
-        <li className="icon"><a href="#"><img src={linkedImage} alt="linkedin"/></a></li>
+        <li className="icon-2"><a href="/"><img src={callImage} alt="call"/></a></li>        
+        <li className="icon"><a href="/"><img src={facebookImage} alt="facebook"/></a></li>
+        <li className="icon"><a href="/"><img src={twitterImage} alt="twitter"/></a></li>
+        <li className="icon"><a href="/"><img src={linkedImage} alt="linkedin"/></a></li>
       </ul>
     </nav>
   )
