@@ -1,0 +1,108 @@
+.footer{
+    display:flex;
+    top: 924px;
+    left: 443px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: #030303;
+}
+.footer h3{
+    margin-top: 90px;
+    margin-left: 40px;            
+    text-align: left;
+    font: normal normal 600 38px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+.about-page{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+    
+   
+    
+.about-page li {
+    
+    list-style: none; /* Remove default list bullet points */
+    text-align: left;
+    font: normal normal normal 14px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.support-page{
+    margin-top: 30px;
+    margin-left: 100px;
+    top: 922px;
+    left: 665px;
+    width: 142px;
+    height: 141px;
+}
+.support-page li{
+    font: normal normal normal 14px/24px Segoe UI;
+    margin-top: 5px;
+    list-style: none;
+    text-align: left;
+    letter-spacing: NaNpx;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.connect-page h3 {
+    text-align: left;
+    font: normal normal normal 14px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon-page {
+    list-style: none;
+    display: flex;
+    margin-top: 10px; /* Add margin to separate the title and icons */
+}
+
+.icon-page li {
+    margin-right: 10px; /* Add margin to separate the icons */
+}
+
+.connect-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -60px;
+    margin-left: 160px;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center text in the footer */
+      padding: 20px; /* Add spacing around the footer */
+    }
+  
+    .footer h3 {
+      margin: 20px 0; /* Adjust spacing around the header */
+      font-size: 24px; /* Increase font size for better readability */
+    }
+  
+    .about-page,
+    .support-page,
+    .connect-page {
+      margin: 20px 0; /* Adjust spacing between sections */
+    }
+  
+    .about-page li,
+    .support-page li {
+      font-size: 16px; /* Increase font size for better readability */
+    }
+  
+    .icon-page li {
+      margin: 0 10px; /* Add spacing between icons */
+    }
+  }

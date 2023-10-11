@@ -1,0 +1,29 @@
+.copyright-page {   
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width */
+    height: 41px;
+    margin-top: 10px; 
+}
+
+.copyright-page p {
+    text-align: left;
+    font: normal normal 600 13px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .copyright-page {
+      text-align: center; /* Center text horizontally */
+    }
+  
+    .copyright-page p {
+      font-size: 12px; /* Reduce font size for better readability on smaller screens */
+      margin: 5px 0; /* Add spacing around the text */
+    }
+  }

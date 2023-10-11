@@ -1,0 +1,99 @@
+/* navbar.css */
+.navbar {
+   
+    height: 10px;
+    background-color: #58595B; /* Background color for the navbar */
+    color: #DBDBDB; /* Text color */
+    padding: 10px;
+    
+  }
+  .navbar img{
+    height: 25px;
+    width: 25px;
+  }
+  
+  .navbar-list {
+    margin-left: 75px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .navbar-list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+ 
+  .list {
+    margin-right: 15px; 
+    font-size: 14px; 
+    
+  }
+  .navbar-icons{
+    margin-left: 1050px; 
+    list-style: none;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-left: 15px;
+    list-style: none; /* Remove list bullet points */
+}
+  .icon-2 {
+    background-color: white;
+    margin-left: 15px;
+    list-style: none;
+    border-radius: 50%; /* To make it rounded */
+    width: 25px;
+    height: 25px;
+  }
+  .icon-2 img{
+    height: 18.79px;
+    width: 18.8px;
+  }
+
+.icon i {
+    margin-right: 15px;
+    color: #f7ecec;
+    font-size: 18px;
+}
+
+/* Small screens (for mobile) */
+@media (max-width: 768px) {
+  .navbar {
+      height: auto;
+      background-color: #58595B;
+      color: #DBDBDB;
+      padding: 10px;
+  }
+
+  .navbar-list {
+      margin-left: 0;
+      flex-direction: column; /* Stack items vertically for mobile */
+  }
+
+  .list {
+      margin-right: 0;
+      margin-bottom: 10px; /* Add spacing between list items */
+      font-size: 14px;
+  }
+
+  .navbar-icons {
+      margin-left: 0;
+      margin-top: 10px; /* Add spacing for mobile */
+  }
+
+  .icon-2 {
+      margin-top: 10px; /* Adjust spacing for mobile */
+  }
+
+  .icon i {
+      margin-right: 0;
+  }
+}
+

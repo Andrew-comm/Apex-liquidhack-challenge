@@ -1,0 +1,213 @@
+
+.header {
+   
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; /* Background color for the header */
+    opacity: 1;
+    color: white; /* Text color */
+    padding: 10px;
+    width: 100%; /* Cover the entire width of the screen */
+  }
+  
+  .my-image img{
+    margin-top: 25px;
+    max-width: 100%; /* Ensure the image fits within the container */
+    margin-left: 45px;  }
+  
+  
+/* header.css */
+
+.search-bar {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    width: 40%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 80px;   
+    background-color: #FFFFFF; 
+  }
+  .search-bar input[type='text'] {
+    flex: 1;
+    border: none;
+    outline: blue;    
+    border-radius: 5px;
+   
+  }
+  
+  .search-bar button {
+    background-color: #0000001C;
+    cursor: pointer;
+    height: 100%; 
+    padding: 5px; /* Adjust the padding to match the height of the input */
+    border-radius: 5px; /* Apply the same border radius as the input */
+  }
+  .search-bar img{
+    height: 15px;
+    width: 25px;
+  }
+  
+  
+  .sign p {
+    font-family: 'Segoe UI';
+    margin-top: 45px;
+    margin-left: 80px;
+    color: #333;
+    font-size: 16px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.register {
+    margin-top: 25px;
+    margin-left: 50px; 
+    background-color: #EB1C24;
+    color: white;
+    padding:5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    margin-left: 30px; 
+    margin-top: 25px;
+    background-color: #58595B;
+    color: hsl(0, 33%, 94%);
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cart-icon span {
+    font-size: 12px;
+}
+
+  .mail-icon {
+    margin-right: 110px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: absolute;
+    right: 0; /* Adjust the right position as needed */
+    top: 10px; /* Adjust the top position as needed */
+    z-index: 1.5; /* Ensure it's above other elements */
+}
+
+.mail-icon i {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    margin-right: 5px; /* Add right margin to separate the icon and small text */
+}
+
+.mail-icon small {
+    color: #333;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+  }
+
+  .my-image img {
+      margin: 25px 0; /* Adjust top margin and remove left margin */
+  }
+
+  .search-bar {
+      width: 80%; /* Wider search bar */
+      margin: 15px 0; /* Adjust margin for spacing */
+  }
+
+  .search-bar input[type='text'] {
+      border: none;
+      outline: blue;
+      border-radius: 5px;
+  }
+
+  .search-bar button {
+      background-color: #0000001C;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 5px;
+  }
+
+  .search-bar img {
+      height: 15px;
+      width: 25px;
+  }
+
+  .sign p {
+      margin: 15px 0; /* Adjust top and left margin */
+      font-size: 14px; /* Smaller font size */
+  }
+
+  .register {
+      margin: 15px 0; /* Adjust top and left margin */
+      padding: 5px 10px;
+  }
+
+  .cart-icon {
+      margin: 15px 0; /* Adjust top and left margin */
+      font-size: 18px; /* Increase font size for better visibility */
+  }
+
+  .mail-icon {
+      display: flex;
+      flex-direction: column; /* Stack the icon and small text */
+      align-items: center;
+      font-size: 16px; /* Adjust font size */
+      position: static; /* Remove absolute positioning */
+      margin: 15px 0; /* Adjust margin for spacing */
+  }
+
+  .mail-icon i {
+      margin-right: 0; /* Remove right margin */
+  }
+
+  .mail-icon small {
+      margin: 5px 0; /* Add margin for spacing */
+  }
+}
+
+ 
+  .item-count {
+    background-color: #EB1C24;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+  }
+  
+  .my-title {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80px; /* Set a fixed height */
+  }
+  
+  .my-title h3 {
+    width: 384px;
+    text-align: center; /* Center text horizontally */
+    font: normal normal 600 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #030303;
+    opacity: 1;
+  }
+  
+  
+  
+  .my-course img{
+    margin-top: 10px;
+    left: 137px;
+    width: 260px;
+    height: 132px;
+    background: transparent url('../images/course.png') 0% 0% no-repeat padding-box;
+    border-radius: 6px 6px 0px 0px;
+    opacity: 1;
+}

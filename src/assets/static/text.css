@@ -1,0 +1,33 @@
+.text-page {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    left: 140px;
+    width: 1085px;
+    height: 19px;
+}
+
+.text-page p {
+    display: inline-block; /* Display paragraphs side by side */
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #58595B;
+    margin-right: 22px; /* Add spacing between paragraphs */
+    opacity: 1;
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #58595B; /* Optional: Set the desired color */
+    opacity: 1;     /* Optional: Set the desired opacity */
+}
+
+
+@media (max-width: 768px) {
+    .text-page {
+        margin-top: 5px;
+        margin-bottom: 40px;
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+}

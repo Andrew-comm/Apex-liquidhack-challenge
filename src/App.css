@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.my-collection{
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+.text{
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
