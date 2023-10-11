@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <div className='header'>
   <div className='my-image'>
-    <img src={myImage} alt="My Image" />
+    <img src={myImage} alt="My header" />
   </div>
 
   <div className="search-bar">
     <input type="text" />
     <button type="submit">
-    <img src={searchImage} alt="search" />
+    <img src={searchImage} alt="search-content" />
     </button>
   </div>
   

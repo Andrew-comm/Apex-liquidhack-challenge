@@ -34,9 +34,9 @@ const Footer = () => {
         <section className='connect-page'>
             <h3>CONNECT</h3>
             <ul className='icon-page'>                        
-                <li className="icon"><a href="#"><img src={facebookImage} alt="facebook"/></a></li>
-                <li className="icon"><a href="#"><img src={twitterImage} alt="twitter"/></a></li>
-                <li className="icon"><a href="#"><img src={linkedImage} alt="linkedin"/></a></li>        
+                <li className="icon"><a href="/"><img src={facebookImage} alt="facebook"/></a></li>
+                <li className="icon"><a href="/"><img src={twitterImage} alt="twitter"/></a></li>
+                <li className="icon"><a href="/"><img src={linkedImage} alt="linkedin"/></a></li>        
             </ul>
 
         </section>
